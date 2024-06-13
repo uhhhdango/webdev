@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #2a9df4;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.coordinates {
+    display: flex;
+    justify-content: space-between;
+}
+
+.coordinate {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.coordinate:last-child {
+    margin-right: 0;
+}
+
+.time-range {
+    display: flex;
+    justify-content: space-between;
+}
+
+.time-range input {
+    width: calc(50% - 10px);
+}
+
+.btn {
+    background-color: #2a9df4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background-color: #217dbb;
+}
+
+#map {
+    height: 500px;
+    margin-top: 20px;
+}
+
+.availability-message {
+    color: grey;
+    margin-left: 10px;
+}
